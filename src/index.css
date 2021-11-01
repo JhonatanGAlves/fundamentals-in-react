@@ -3,11 +3,13 @@ body {
   height: 100vh;
   background-color: rgb(226, 226, 226);
   text-align: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  font-size: 1.4rem;
 }
 
 h1, h2, h3 {
-  font-weight: 300;
+  font-weight: 200;
+}
+
+h2, h3 {
+  margin: 0;
 }

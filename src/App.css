@@ -1,0 +1,5 @@
+.App .Cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; /*Quando houver a quebra de linha, os conteúdos automaticamente ficam abaixo um do outro*/
+}

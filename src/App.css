@@ -27,3 +27,8 @@
 .App .Cards .Content img {
   border-radius: 10px;
 }
+
+.App .Cards .Content .list ul {
+  list-style: none;
+  text-align: start;
+}

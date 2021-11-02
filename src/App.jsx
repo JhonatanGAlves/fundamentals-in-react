@@ -8,6 +8,7 @@ import { RandomNumber } from './Components/RandomNumber'
 import { Card } from './Components/layout/Card'
 import { Family } from './Components/basicos/Family'
 import { InputButton } from './Components/InputButton/InputButton'
+import { StudentList } from './Components/repetition/StudentList'
 
 export const App = (props) => {
 
@@ -33,6 +34,14 @@ export const App = (props) => {
       <hr />
 
       <div className="Cards">
+        <Card title="#06 - Repetição com .map" color="#2AB7CA" /*Estou passando uma cor por props*/ >
+          <StudentList />
+          <InputButton color="#2AB7CA"
+            link="https://github.com/JhonatanGAlves/fundamentals-in-react/commit/6511685464cede7ad7e387c09b37bb04ee4e00f5"
+            value="Acessar Commit"
+          />
+        </Card>
+
         <Card title="#05 - Componentes com Filhos" color="#FFA100" /*Estou passando uma cor por props*/ >
           <Family
             lastName="Alves" /*Passando "Alves" como props para ser acessada no component "Family"*/

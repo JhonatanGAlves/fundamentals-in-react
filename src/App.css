@@ -23,3 +23,7 @@
   background-color: #ffa100;
   border: 2px solid #ffa100 !important;
 }
+
+.App .Cards .Content img {
+  border-radius: 10px;
+}

@@ -7,7 +7,7 @@ import { UsingFragment } from './Components/basicos/UsingFragment'
 import { RandomNumber } from './Components/RandomNumber'
 import { Card } from './Components/layout/Card'
 import { Family } from './Components/basicos/Family'
-import { InputButton } from './Components/InputButton'
+import { InputButton } from './Components/InputButton/InputButton'
 
 export const App = (props) => {
 

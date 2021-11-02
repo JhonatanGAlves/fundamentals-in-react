@@ -1,0 +1,23 @@
+.Container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.Container input {
+  background-color: rgba(255, 255, 255, 0);
+  font-family: Oswald;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 5px 20px;
+  border: 2px solid;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.Container input:hover {
+  background-color: black;
+  color: #fff !important;
+  border: 2px solid black !important;
+}

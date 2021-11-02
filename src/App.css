@@ -1,5 +1,25 @@
 .App .Cards {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap; /*Quando houver a quebra de linha, os conteúdos automaticamente ficam abaixo um do outro*/
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap; /*Quando houver a quebra de linha, os conteúdos automaticamente ficam abaixo um do outro*/
+}
+
+.App .Button i {
+  color: #212121;
+  margin-bottom: 10px;
+}
+
+.App .Button i:hover {
+  color: #ffa100;
+}
+
+.Button .Container input {
+  background-color: #212121;
+  color: #fff !important;
+  font-size: 21px;
+}
+
+.Button .Container input:hover {
+  background-color: #ffa100;
+  border: 2px solid #ffa100 !important;
 }

@@ -2,7 +2,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 20px;
+  margin: 20px;
 }
 
 .Container input {
@@ -17,7 +17,7 @@
 }
 
 .Container input:hover {
-  background-color: black;
+  background-color: #212121;
   color: #fff !important;
-  border: 2px solid black !important;
+  border: 2px solid #212121 !important;
 }

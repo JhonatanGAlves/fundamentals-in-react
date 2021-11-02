@@ -9,6 +9,7 @@ import { Card } from './Components/layout/Card'
 import { Family } from './Components/basicos/Family'
 import { InputButton } from './Components/InputButton/InputButton'
 import { StudentList } from './Components/repetition/StudentList'
+import { ProductsList } from './Components/repetition/ProductsList'
 
 export const App = (props) => {
 
@@ -33,46 +34,54 @@ export const App = (props) => {
       </div>
       <hr />
 
-      <div className="Cards">
-        <Card title="#06 - Repetição com .map" color="#2AB7CA" /*Estou passando uma cor por props*/ >
-          <StudentList />
-          <InputButton color="#2AB7CA"
-            link="https://github.com/JhonatanGAlves/fundamentals-in-react/commit/6511685464cede7ad7e387c09b37bb04ee4e00f5"
+      <div className="Cards">       
+        <Card title="#07 - Desafio usando o .map" color="#03396c" /*Estou passando uma cor por props*/ >
+          <ProductsList />
+          <InputButton color="#03396c"
+            link="https://github.com/JhonatanGAlves/fundamentals-in-react/commit/bfa1cdb8eb3b44489b46a2510473c79ac621e7ed"
             value="Acessar Commit"
           />
         </Card>
 
-        <Card title="#05 - Componentes com Filhos" color="#FFA100" /*Estou passando uma cor por props*/ >
+        <Card title="#06 - Repetição com .map" color="#011f4b" /*Estou passando uma cor por props*/ >
+          <StudentList />
+          <InputButton color="#011f4b"
+            link="https://github.com/JhonatanGAlves/fundamentals-in-react/commit/bfa1cdb8eb3b44489b46a2510473c79ac621e7ed"
+            value="Acessar Commit"
+          />
+        </Card>
+
+        <Card title="#05 - Componentes com Filhos" color="#b3cde0" /*Estou passando uma cor por props*/ >
           <Family
             lastName="Alves" /*Passando "Alves" como props para ser acessada no component "Family"*/
             otherName="Thomaz"
           />
-          <InputButton color="#FFA100"
+          <InputButton color="#b3cde0"
             link="https://github.com/JhonatanGAlves/fundamentals-in-react/commit/6511685464cede7ad7e387c09b37bb04ee4e00f5"
             value="Acessar Commit"
           />
         </Card>
 
-        <Card title="#04 - Desafio número aleatório" color="#DC1360" /*Estou passando uma cor por props*/ >
+        <Card title="#04 - Desafio número aleatório" color="#6497b1" /*Estou passando uma cor por props*/ >
           <RandomNumber //Passei este compenente dentro do componente Card, mas para que ele fique acessível, preciso ir até o arquivo do componente Card e passar uma props.children
             min={ 0 }
             max={ 10 }
           />
-          <InputButton color="#DC1360"
+          <InputButton color="#6497b1"
             link="https://github.com/JhonatanGAlves/fundamentals-in-react/commit/49346110429a6bccdf23612c942f1d6b3590d4cc"
             value="Acessar Commit"
           />
         </Card>
 
-        <Card title="#03 - Fragmento" color="#00A89F" /*Estou passando uma cor por props*/ >
+        <Card title="#03 - Fragmento" color="#005b96" /*Estou passando uma cor por props*/ >
           <UsingFragment />
-          <InputButton color="#00A89F"
+          <InputButton color="#005b96"
             link="https://github.com/JhonatanGAlves/fundamentals-in-react/commit/f97621bbd20663ad6c46507379578223beda6d5a"
             value="Acessar Commit"
           />
         </Card>
 
-        <Card title="#02 - Comp. com Parâmetro" color="#00B4E1" /*Estou passando uma cor por props*/ >
+        <Card title="#02 - Comp. com Parâmetro" color="#03396c" /*Estou passando uma cor por props*/ >
           <CompWithParameter
             title={"Situação do Aluno"}
             name={ name }
@@ -81,15 +90,15 @@ export const App = (props) => {
             media={ media }
             result={ result }
           />
-          <InputButton color="#00B4E1"
+          <InputButton color="#03396c"
             link="https://github.com/JhonatanGAlves/fundamentals-in-react/commit/f97621bbd20663ad6c46507379578223beda6d5a"
             value="Acessar Commit"
           />
         </Card>
 
-        <Card title="#01 - Primeiro Componente" color="#8B479E" /*Estou passando uma cor por props*/ >
+        <Card title="#01 - Primeiro Componente" color="#011f4b" /*Estou passando uma cor por props*/ >
           <FirstComponent />
-          <InputButton color="#8B479E"
+          <InputButton color="#011f4b"
             link="https://github.com/JhonatanGAlves/fundamentals-in-react/commit/f97621bbd20663ad6c46507379578223beda6d5a"
             value="Acessar Commit"
           />

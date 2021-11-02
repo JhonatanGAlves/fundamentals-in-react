@@ -32,3 +32,20 @@
   list-style: none;
   text-align: start;
 }
+
+.App .Cards .Content .containerList table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.App .Cards .Content .containerList td,
+th {
+  border: 1px solid #c4c4c4;
+  text-align: left;
+  padding: 8px;
+}
+
+.App .Cards .Content .containerList tr:nth-child(even) {
+  background-color: #dddddd;
+}

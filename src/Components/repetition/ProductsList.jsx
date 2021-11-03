@@ -5,10 +5,10 @@ export const ProductsList = () => {
 
   const productLi = Products.map((product) => {
     return (
-        <tr>
+        <tr key={ product.id }>
           <td>{ product.id }</td>
           <td>{ product.name }</td>
-          <td>{ product.price }</td>
+          <td>R$ { product.price }</td>
         </tr>
     )
   })

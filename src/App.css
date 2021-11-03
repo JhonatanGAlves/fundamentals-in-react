@@ -1,9 +1,11 @@
+/* Component Card */
 .App .Cards {
   display: flex;
   justify-content: center;
   flex-wrap: wrap; /*Quando houver a quebra de linha, os conteúdos automaticamente ficam abaixo um do outro*/
 }
 
+/* Component InputButton */
 .App .Button i {
   color: #212121;
   margin-bottom: 10px;
@@ -24,15 +26,30 @@
   border: 2px solid #ffa100 !important;
 }
 
+/* Component Fragment */
 .App .Cards .Content img {
   border-radius: 10px;
 }
 
+/* Component EvenOrOdd */
+.App .Cards .Content .cr7 {
+  margin-top: 20px;
+  text-align: start;
+}
+
+.App .Cards .Content .cr7 img {
+  margin-top: 10px;
+  width: 100%;
+  border-radius: 10px;
+}
+
+/* Component StudentList */
 .App .Cards .Content .list ul {
   list-style: none;
   text-align: start;
 }
 
+/* Component ProductsList */
 .App .Cards .Content .containerList table {
   font-family: arial, sans-serif;
   border-collapse: collapse;

@@ -10,6 +10,7 @@ import { Family } from './Components/basicos/Family'
 import { InputButton } from './Components/InputButton/InputButton'
 import { StudentList } from './Components/repetition/StudentList'
 import { ProductsList } from './Components/repetition/ProductsList'
+import { EvenOrOdd } from './Components/conditional/EvenOrOdd'
 
 export const App = (props) => {
 
@@ -34,11 +35,21 @@ export const App = (props) => {
       </div>
       <hr />
 
-      <div className="Cards">       
+      <div className="Cards">
+        <Card title="#08 - Renderização Condicional" color="#005b96" /*Estou passando uma cor por props*/ >
+          <EvenOrOdd //LEMBRAR DE USAR Hooks PARA FAZER UM CAMPO DE DIGITAÇÃO
+            number={ 7 }
+          />
+          <InputButton color="#005b96"
+            link="https://github.com/JhonatanGAlves/fundamentals-in-react/commit/6511685464cede7ad7e387c09b37bb04ee4e00f5"
+            value="Acessar Commit"
+          />
+        </Card>
+
         <Card title="#07 - Desafio usando o .map" color="#03396c" /*Estou passando uma cor por props*/ >
           <ProductsList />
           <InputButton color="#03396c"
-            link="https://github.com/JhonatanGAlves/fundamentals-in-react/commit/bfa1cdb8eb3b44489b46a2510473c79ac621e7ed"
+            link="https://github.com/JhonatanGAlves/fundamentals-in-react/commit/e32b9fa08617a3470565d66e942865aeb5af045a"
             value="Acessar Commit"
           />
         </Card>

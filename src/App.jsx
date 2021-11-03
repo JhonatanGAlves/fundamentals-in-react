@@ -11,6 +11,7 @@ import { InputButton } from './Components/InputButton/InputButton'
 import { StudentList } from './Components/repetition/StudentList'
 import { ProductsList } from './Components/repetition/ProductsList'
 import { EvenOrOdd } from './Components/conditional/EvenOrOdd'
+import { DirectParents } from './Components/communication/DirectParents'
 
 export const App = (props) => {
 
@@ -36,12 +37,20 @@ export const App = (props) => {
       <hr />
 
       <div className="Cards">
+        <Card title="#09 - Comunicação entre Pai e Filho" color="#6497b1" /*Estou passando uma cor por props*/ >
+          <DirectParents />
+          <InputButton color="#6497b1"
+            link="https://github.com/JhonatanGAlves/fundamentals-in-react/commit/498ca019e2aa5007dea619aa6eda55880b859776"
+            value="Acessar Commit"
+          />
+        </Card>
+
         <Card title="#08 - Renderização Condicional" color="#005b96" /*Estou passando uma cor por props*/ >
           <EvenOrOdd //LEMBRAR DE USAR Hooks PARA FAZER UM CAMPO DE DIGITAÇÃO
             number={ 7 }
           />
           <InputButton color="#005b96"
-            link="https://github.com/JhonatanGAlves/fundamentals-in-react/commit/6511685464cede7ad7e387c09b37bb04ee4e00f5"
+            link="https://github.com/JhonatanGAlves/fundamentals-in-react/commit/498ca019e2aa5007dea619aa6eda55880b859776"
             value="Acessar Commit"
           />
         </Card>

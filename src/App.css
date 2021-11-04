@@ -66,3 +66,8 @@ th {
 .App .Cards .Content .containerList tr:nth-child(even) {
   background-color: #dddddd;
 }
+
+/* Component IndirectParents */
+.App .Cards .Content .containerIndirect {
+  margin-top: 20px;
+}

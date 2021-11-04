@@ -12,6 +12,7 @@ import { StudentList } from './Components/repetition/StudentList'
 import { ProductsList } from './Components/repetition/ProductsList'
 import { EvenOrOdd } from './Components/conditional/EvenOrOdd'
 import { DirectParents } from './Components/communication/DirectParents'
+import { IndirectParents } from './Components/communication/IndirectParents'
 
 export const App = (props) => {
 
@@ -37,10 +38,18 @@ export const App = (props) => {
       <hr />
 
       <div className="Cards">
+        <Card title="#10 - Comunicação entre Filho e Pai" color="#b3cde0" /*Estou passando uma cor por props*/ >
+          <IndirectParents />
+          <InputButton color="#b3cde0"
+            link="https://github.com/JhonatanGAlves/fundamentals-in-react/commit/bace02d752e90a4572b3c0e3739efc62fcb3b7e5"
+            value="Acessar Commit"
+          />
+        </Card>
+
         <Card title="#09 - Comunicação entre Pai e Filho" color="#6497b1" /*Estou passando uma cor por props*/ >
           <DirectParents />
           <InputButton color="#6497b1"
-            link="https://github.com/JhonatanGAlves/fundamentals-in-react/commit/498ca019e2aa5007dea619aa6eda55880b859776"
+            link="https://github.com/JhonatanGAlves/fundamentals-in-react/commit/bace02d752e90a4572b3c0e3739efc62fcb3b7e5"
             value="Acessar Commit"
           />
         </Card>

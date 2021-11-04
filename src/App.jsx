@@ -13,6 +13,7 @@ import { ProductsList } from './Components/repetition/ProductsList'
 import { EvenOrOdd } from './Components/conditional/EvenOrOdd'
 import { DirectParents } from './Components/communication/DirectParents'
 import { IndirectParents } from './Components/communication/IndirectParents'
+import { Input } from './Components/form/input'
 
 export const App = (props) => {
 
@@ -38,6 +39,14 @@ export const App = (props) => {
       <hr />
 
       <div className="Cards">
+      <Card title="#11 - Componente Controlado (INPUT)" color="#011f4b" /*Estou passando uma cor por props*/ >
+          <Input />
+          <InputButton color="#011f4b"
+            link="https://github.com/JhonatanGAlves/fundamentals-in-react/commit/48fd967eb16132d9486f039482d26d06bdef3eb0"
+            value="Acessar Commit"
+          />
+        </Card>
+
         <Card title="#10 - Comunicação entre Filho e Pai" color="#b3cde0" /*Estou passando uma cor por props*/ >
           <IndirectParents />
           <InputButton color="#b3cde0"

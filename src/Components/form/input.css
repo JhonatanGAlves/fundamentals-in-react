@@ -1,0 +1,12 @@
+.ipt {
+  border: 1px solid rgb(172, 172, 172);
+  outline: none;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.txtArea {
+  border: 1px solid rgb(172, 172, 172);
+  outline: none;
+  border-radius: 5px;
+}

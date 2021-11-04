@@ -41,7 +41,7 @@ export const App = (props) => {
         <Card title="#10 - Comunicação entre Filho e Pai" color="#b3cde0" /*Estou passando uma cor por props*/ >
           <IndirectParents />
           <InputButton color="#b3cde0"
-            link="https://github.com/JhonatanGAlves/fundamentals-in-react/commit/bace02d752e90a4572b3c0e3739efc62fcb3b7e5"
+            link="https://github.com/JhonatanGAlves/fundamentals-in-react/commit/48fd967eb16132d9486f039482d26d06bdef3eb0"
             value="Acessar Commit"
           />
         </Card>
@@ -55,9 +55,7 @@ export const App = (props) => {
         </Card>
 
         <Card title="#08 - Renderização Condicional" color="#005b96" /*Estou passando uma cor por props*/ >
-          <EvenOrOdd //LEMBRAR DE USAR Hooks PARA FAZER UM CAMPO DE DIGITAÇÃO
-            number={ 7 }
-          />
+          <EvenOrOdd />
           <InputButton color="#005b96"
             link="https://github.com/JhonatanGAlves/fundamentals-in-react/commit/498ca019e2aa5007dea619aa6eda55880b859776"
             value="Acessar Commit"

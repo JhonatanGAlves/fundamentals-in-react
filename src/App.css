@@ -32,15 +32,28 @@
 }
 
 /* Component EvenOrOdd */
-.App .Cards .Content .cr7 {
+.App .Cards .Content .players {
   margin-top: 20px;
   text-align: start;
 }
 
-.App .Cards .Content .cr7 img {
+.App .Cards .Content .players img {
   margin-top: 10px;
   width: 100%;
   border-radius: 10px;
+}
+
+.App .Card .Content .btn input {
+  outline: none;
+  border-radius: 5px;
+  border: 1px solid rgb(161, 161, 161);
+  padding: 10px;
+  font-size: 16px;
+}
+
+.App .Card .Content .btn input::placeholder {
+  color: rgb(161, 161, 161);
+  font-family: Oswald;
 }
 
 /* Component StudentList */

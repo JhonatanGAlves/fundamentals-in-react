@@ -32,6 +32,10 @@
 }
 
 /* Component EvenOrOdd */
+.App .Cards .Content .commitInput {
+  margin-top: 100px;
+}
+
 .App .Cards .Content .players {
   margin-top: 20px;
   text-align: start;

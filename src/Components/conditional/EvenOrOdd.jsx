@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import cr7 from '../../Images/cr7.jpeg'
 import messi10 from '../../Images/messi10.png'
+import { InputButton } from '../InputButton/InputButton'
 
 export const EvenOrOdd = (props) => {
   const [number, setNumber] = useState(null)

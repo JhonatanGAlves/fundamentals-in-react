@@ -60,6 +60,13 @@ export const App = (props) => {
             link="https://github.com/JhonatanGAlves/fundamentals-in-react/commit/498ca019e2aa5007dea619aa6eda55880b859776"
             value="Acessar Commit"
           />
+          <div className="commitInput">
+            <p>Commit Input number utilizando Hook State</p>
+            <InputButton color="#005b96"
+              link="https://github.com/JhonatanGAlves/fundamentals-in-react/commit/57539045a60ffce50d6d03fd8e46ed5c6f62f7a1"
+              value="Commit Input"
+            />
+          </div>
         </Card>
 
         <Card title="#07 - Desafio usando o .map" color="#03396c" /*Estou passando uma cor por props*/ >

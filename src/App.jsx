@@ -14,6 +14,7 @@ import { EvenOrOdd } from './Components/conditional/EvenOrOdd'
 import { DirectParents } from './Components/communication/DirectParents'
 import { IndirectParents } from './Components/communication/IndirectParents'
 import { Input } from './Components/form/input'
+import Counter from './Components/counter/Counter'
 
 export const App = (props) => {
 
@@ -39,10 +40,18 @@ export const App = (props) => {
       <hr />
 
       <div className="Cards">
-      <Card title="#11 - Componente Controlado (INPUT)" color="#011f4b" /*Estou passando uma cor por props*/ >
+        <Card title="#12 - Contador" color="#03396c" /*Estou passando uma cor por props*/ >
+          <Counter />
+          <InputButton color="#03396c"
+            link="https://github.com/JhonatanGAlves/fundamentals-in-react/commit/c55bdb0ef20cd16bb1c363842fdaf2c90591a842"
+            value="Acessar Commit"
+          />
+        </Card>
+
+        <Card title="#11 - Componente Controlado (INPUT)" color="#011f4b" /*Estou passando uma cor por props*/ >
           <Input />
           <InputButton color="#011f4b"
-            link="https://github.com/JhonatanGAlves/fundamentals-in-react/commit/48fd967eb16132d9486f039482d26d06bdef3eb0"
+            link="https://github.com/JhonatanGAlves/fundamentals-in-react/commit/c55bdb0ef20cd16bb1c363842fdaf2c90591a842"
             value="Acessar Commit"
           />
         </Card>

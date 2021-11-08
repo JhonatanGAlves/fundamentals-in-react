@@ -15,6 +15,7 @@ import { DirectParents } from './Components/communication/DirectParents'
 import { IndirectParents } from './Components/communication/IndirectParents'
 import { Input } from './Components/form/input'
 import Counter from './Components/counter/Counter'
+import { Mega } from './Components/megaSena/Mega'
 
 export const App = (props) => {
 
@@ -40,10 +41,18 @@ export const App = (props) => {
       <hr />
 
       <div className="Cards">
+        <Card title="#13 - Gerador de Números Aleatórios" color="#005b96" /*Estou passando uma cor por props*/ >
+          <Mega quantities={ 6 }/>
+          <InputButton color="#005b96"
+            link="https://github.com/JhonatanGAlves/fundamentals-in-react/commit/11e4721c9a9c508dee9e25ebce685d771274f35d"
+            value="Acessar Commit"
+          />
+        </Card>
+
         <Card title="#12 - Contador" color="#03396c" /*Estou passando uma cor por props*/ >
           <Counter />
           <InputButton color="#03396c"
-            link="https://github.com/JhonatanGAlves/fundamentals-in-react/commit/c55bdb0ef20cd16bb1c363842fdaf2c90591a842"
+            link="https://github.com/JhonatanGAlves/fundamentals-in-react/commit/11e4721c9a9c508dee9e25ebce685d771274f35d"
             value="Acessar Commit"
           />
         </Card>

@@ -44,7 +44,7 @@ export const App = (props) => {
         <Card title="#13 - Gerador de Números Aleatórios" color="#005b96" /*Estou passando uma cor por props*/ >
           <Mega quantities={ 6 }/>
           <InputButton color="#005b96"
-            link="https://github.com/JhonatanGAlves/fundamentals-in-react/commit/11e4721c9a9c508dee9e25ebce685d771274f35d"
+            link="https://github.com/JhonatanGAlves/fundamentals-in-react/commit/3c2d2f03245bdac3f3b46c1df8f12c6bb9d11049"
             value="Acessar Commit"
           />
         </Card>
